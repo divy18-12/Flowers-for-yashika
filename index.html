@@ -1,12 +1,22 @@
+
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>FLOWERS </title>
+  <title>FLOWERS</title>
   <link rel="stylesheet" href="./style.css">
-
 </head>
-<body>
+
+<body class="not-loaded">
+
+  <!-- START MESSAGE -->
+  <div id="startMessage" onclick="startExperience()">
+    <div class="msg-box">
+      For YOU 💛<br>
+      Always be happy and keep smiling yaar 🥹✨<br><br>
+      <small>(Tap anywhere)</small>
+    </div>
+  </div>
 <!-- partial:index.partial.html -->
 <body class="not-loaded">
   <div class="night"></div>
@@ -306,7 +316,9 @@
       </div>
     </div>
   </div>
-</body>
+<audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
 <!-- partial -->
   <script  src="./script.js"></script>
 
